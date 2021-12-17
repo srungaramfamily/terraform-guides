@@ -14,7 +14,7 @@ module "aws-functions" {
   source = "./aws-functions/aws-functions.sentinel"
 }
 
-policy "restrict-current-ec2-instance-type" {
-  source = "./restrict-current-ec2-instance-type.sentinel"
+policy "restrict-ec2-instance-type.sentinel" {
+  source = "./restrict-ec2-instance-type.sentinell"
   enforcement_level = "hard-mandatory"
 }
